@@ -179,7 +179,7 @@ class ResultScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Text('GPA Formula:'),
-                        Text('${totalPoints.toStringAsFixed(1)} ÷ $totalCredits', 
+                        Text('${totalPoints.toStringAsFixed(1)} / $totalCredits', 
                           style: const TextStyle(fontWeight: FontWeight.bold)),
                       ],
                     ),

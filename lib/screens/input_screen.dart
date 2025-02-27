@@ -17,7 +17,7 @@ class _InputScreenState extends State<InputScreen> {
   @override
   void initState() {
     super.initState();
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 6; i++) {
       courses.add(Course(name: '', credits: 0, grade: 'A'));
     }
   }
